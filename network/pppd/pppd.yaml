@@ -1,0 +1,12 @@
+name: pppd
+container:
+  entrypoint: /usr/local/lib/containers/pppd/pppd
+  args:
+    - nodetach
+    - noauth
+    - debug
+    - 115200
+depends:
+  - network:
+    - addresses
+restart: always

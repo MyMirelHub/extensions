@@ -1,0 +1,10 @@
+version: v1alpha1
+metadata:
+  name: pppd-service
+  version: "$VERSION"
+  author: Mirel Isaj
+  description: |
+    PPP is the protocol used for establishing internet links over dial-up modems, DSL connections, and many other types of point-to-point links. 
+  compatibility:
+    talos:
+      version: ">= v1.5.0"
